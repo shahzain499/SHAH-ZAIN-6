@@ -72,12 +72,12 @@ iski jagah yai put kr k commit krdo
   <script>
     AOS.init({ duration: 1000 });
   </script>
-
-  <!-- Typing Effect -->
-  <script>
-    new Typed('#typed-name', {
-      strings: ['SHAH ZAIN'],
-      typeSpeed: 100,
+ strings: ['SHAH ZAIN'],
+  typeSpeed: 100,        // Typing speed in ms per character
+  backSpeed: 60,         // Backspacing speed
+  backDelay: 1000,       // Wait time after typing before backspacing (1 second)
+  loop: true             // Enables infinite loop
+});
       backSpeed: 50,
       loop: false
     });
